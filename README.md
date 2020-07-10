@@ -1,2 +1,2 @@
-# Data-structure-array-
-here are the codes for data structure( topic- arrray)
+# Data-structure-queues-
+here are the codes for data structure( topic- queues)
