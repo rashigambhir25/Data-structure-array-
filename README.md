@@ -1,21 +1,32 @@
 # Data-structure-recursion-
 here are the codes for data structure( topic- recursion)
-#Head Recursion 
+Head Recursion 
+
 #include <stdio.h>
-void fun(int n)
+
+void fun (int n)
 {
+
    if(n>0)
-    {
+   
+    {   
        fun(n-1);
-       printf("%d",n);
+      printf("%d",n);     
     }
+    
 } 
-int main() {
-int x=3;
 
-fun(x);
-return 0;
+int main() 
+{ 
 
+    int x=3;
+     fun(x);
+     return 0;
+     
 }
+
+
+
+
 
 
