@@ -1,3 +1,21 @@
-# Data-structure-queues-
-here are the codes for data structure( topic- queues)
+# Data-structure-recursion-
+here are the codes for data structure( topic- recursion)
+#Head Recursion 
+#include <stdio.h>
+void fun(int n)
+{
+   if(n>0)
+    {
+       fun(n-1);
+       printf("%d",n);
+    }
+} 
+int main() {
+int x=3;
+
+fun(x);
+return 0;
+
+}
+
 
